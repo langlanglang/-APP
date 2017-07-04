@@ -11,6 +11,15 @@
 		0CAB05C41F0A2D2400579A2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05C21F0A2D2400579A2A /* Main.storyboard */; };
 		0CAB05C61F0A2D2400579A2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05C51F0A2D2400579A2A /* Assets.xcassets */; };
 		0CAB05C91F0A2D2400579A2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05C71F0A2D2400579A2A /* LaunchScreen.storyboard */; };
+		0CAB05DD1F0A4B6F00579A2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB05DC1F0A4B6F00579A2A /* MainViewController.swift */; };
+		0CAB05E01F0B23ED00579A2A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05DE1F0B23ED00579A2A /* Home.storyboard */; };
+		0CAB05E21F0B240F00579A2A /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05E11F0B240F00579A2A /* Live.storyboard */; };
+		0CAB05E51F0B242200579A2A /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05E31F0B242200579A2A /* Follow.storyboard */; };
+		0CAB05E81F0B244100579A2A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CAB05E61F0B244100579A2A /* Profile.storyboard */; };
+		0CAB05F01F0B29EB00579A2A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB05EF1F0B29EB00579A2A /* HomeViewController.swift */; };
+		0CAB05F41F0B31E400579A2A /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB05F31F0B31E400579A2A /* UIBarButtonItem.swift */; };
+		0CAB05F61F0B396100579A2A /* PageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB05F51F0B396100579A2A /* PageTitleView.swift */; };
+		0CAB05F81F0B3B2C00579A2A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB05F71F0B3B2C00579A2A /* Common.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,15 @@
 		0CAB05C51F0A2D2400579A2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CAB05C81F0A2D2400579A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CAB05CA1F0A2D2400579A2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CAB05DC1F0A4B6F00579A2A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		0CAB05DF1F0B23ED00579A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼直播/Base.lproj/Home.storyboard"; sourceTree = SOURCE_ROOT; };
+		0CAB05E11F0B240F00579A2A /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Live.storyboard; path = ../Main/Live.storyboard; sourceTree = "<group>"; };
+		0CAB05E41F0B242200579A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼直播/Base.lproj/Follow.storyboard"; sourceTree = SOURCE_ROOT; };
+		0CAB05E71F0B244100579A2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "斗鱼直播/Base.lproj/Profile.storyboard"; sourceTree = SOURCE_ROOT; };
+		0CAB05EF1F0B29EB00579A2A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0CAB05F31F0B31E400579A2A /* UIBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem.swift; sourceTree = "<group>"; };
+		0CAB05F51F0B396100579A2A /* PageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageTitleView.swift; sourceTree = "<group>"; };
+		0CAB05F71F0B3B2C00579A2A /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +72,6 @@
 			children = (
 				0CAB05D01F0A430E00579A2A /* Classes */,
 				0CAB05BE1F0A2D2400579A2A /* AppDelegate.swift */,
-				0CAB05C21F0A2D2400579A2A /* Main.storyboard */,
 				0CAB05C51F0A2D2400579A2A /* Assets.xcassets */,
 				0CAB05C71F0A2D2400579A2A /* LaunchScreen.storyboard */,
 				0CAB05CA1F0A2D2400579A2A /* Info.plist */,
@@ -78,6 +95,7 @@
 		0CAB05D11F0A430E00579A2A /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05E31F0B242200579A2A /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -85,6 +103,9 @@
 		0CAB05D21F0A430E00579A2A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05EA1F0B295F00579A2A /* Model */,
+				0CAB05EB1F0B295F00579A2A /* View */,
+				0CAB05E91F0B295F00579A2A /* Controller */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -92,6 +113,7 @@
 		0CAB05D31F0A430E00579A2A /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05E11F0B240F00579A2A /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -99,6 +121,9 @@
 		0CAB05D41F0A430E00579A2A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05ED1F0B298300579A2A /* Model */,
+				0CAB05EE1F0B298300579A2A /* View */,
+				0CAB05EC1F0B298300579A2A /* Controller */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -106,6 +131,7 @@
 		0CAB05D51F0A430E00579A2A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05E61F0B244100579A2A /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -113,8 +139,65 @@
 		0CAB05D61F0A430E00579A2A /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				0CAB05F21F0B319E00579A2A /* Extension */,
+				0CAB05F71F0B3B2C00579A2A /* Common.swift */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		0CAB05E91F0B295F00579A2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CAB05DE1F0B23ED00579A2A /* Home.storyboard */,
+				0CAB05EF1F0B29EB00579A2A /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0CAB05EA1F0B295F00579A2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CAB05EB1F0B295F00579A2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAB05EC1F0B298300579A2A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0CAB05C21F0A2D2400579A2A /* Main.storyboard */,
+				0CAB05DC1F0A4B6F00579A2A /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0CAB05ED1F0B298300579A2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0CAB05EE1F0B298300579A2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0CAB05F51F0B396100579A2A /* PageTitleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0CAB05F21F0B319E00579A2A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0CAB05F31F0B31E400579A2A /* UIBarButtonItem.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +263,10 @@
 				0CAB05C91F0A2D2400579A2A /* LaunchScreen.storyboard in Resources */,
 				0CAB05C61F0A2D2400579A2A /* Assets.xcassets in Resources */,
 				0CAB05C41F0A2D2400579A2A /* Main.storyboard in Resources */,
+				0CAB05E21F0B240F00579A2A /* Live.storyboard in Resources */,
+				0CAB05E01F0B23ED00579A2A /* Home.storyboard in Resources */,
+				0CAB05E81F0B244100579A2A /* Profile.storyboard in Resources */,
+				0CAB05E51F0B242200579A2A /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAB05BF1F0A2D2400579A2A /* AppDelegate.swift in Sources */,
+				0CAB05F81F0B3B2C00579A2A /* Common.swift in Sources */,
+				0CAB05DD1F0A4B6F00579A2A /* MainViewController.swift in Sources */,
+				0CAB05F61F0B396100579A2A /* PageTitleView.swift in Sources */,
+				0CAB05F41F0B31E400579A2A /* UIBarButtonItem.swift in Sources */,
+				0CAB05F01F0B29EB00579A2A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +295,7 @@
 				0CAB05C31F0A2D2400579A2A /* Base */,
 			);
 			name = Main.storyboard;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		0CAB05C71F0A2D2400579A2A /* LaunchScreen.storyboard */ = {
@@ -211,6 +304,33 @@
 				0CAB05C81F0A2D2400579A2A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0CAB05DE1F0B23ED00579A2A /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CAB05DF1F0B23ED00579A2A /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../../Main;
+			sourceTree = "<group>";
+		};
+		0CAB05E31F0B242200579A2A /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CAB05E41F0B242200579A2A /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		0CAB05E61F0B244100579A2A /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CAB05E71F0B244100579A2A /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -317,7 +437,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZPS9R82N8F;
 				INFOPLIST_FILE = "斗鱼直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lang.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,7 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZPS9R82N8F;
 				INFOPLIST_FILE = "斗鱼直播/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "lang.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
